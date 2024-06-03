@@ -1,0 +1,172 @@
+/***********************/
+/* BELOW 1200px (Landscape Tablets) */
+/* CALCULATION: 1200 / 16 = 75em*/
+/***********************/
+@media (max-width: 75em) {
+  .vs-text {
+    font-size: 5rem;
+  }
+  .secondary-header {
+    font-size: 5rem;
+  }
+}
+
+/***********************/
+/* BELOW 944px (Landscape Tablets) */
+/* CALCULATION: 944 / 16 = 59em*/
+/***********************/
+@media (max-width: 59em) {
+  .ingame-container {
+    gap: 6rem;
+  }
+  .btn-container {
+    width: 30rem;
+  }
+  .choices {
+    width: 10rem;
+  }
+  .vs-text {
+    font-size: 4rem;
+  }
+  .secondary-header {
+    font-size: 4.5rem;
+  }
+  .play-again-btn {
+    font-size: 1.6rem;
+  }
+}
+
+/***********************/
+/* BELOW 780px (Landscape Tablets) */
+/* CALCULATION: 780 / 16 = 48.75em*/
+/***********************/
+@media (max-width: 48.75em) {
+  .header {
+    width: 60rem;
+  }
+  .tertiary-header {
+    font-size: 1.5rem;
+  }
+  .vs-text {
+    font-size: 3rem;
+  }
+  .choice-text {
+    font-size: 1.1rem;
+  }
+}
+
+/***********************/
+/* BELOW 660px (Landscape Tablets) */
+/* CALCULATION: 660 / 16 = 41.25em*/
+/***********************/
+@media (max-width: 41.25em) {
+  .header {
+    width: 50rem;
+  }
+  main {
+    margin: 3rem;
+  }
+  .choices {
+    width: 7rem;
+  }
+  .tertiary-header {
+    font-size: 1.2rem;
+  }
+  .vs-text {
+    font-size: 1.4rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .choice-text {
+    font-size: 0.6rem;
+  }
+}
+
+/***********************/
+/* BELOW 544px (Landscape Tablets) */
+/* CALCULATION: 544 / 16 = 41.25em*/
+/***********************/
+@media (max-width: 34em) {
+  .header {
+    width: 35rem;
+    height: 9rem;
+  }
+
+  .primary-header {
+    font-size: 1.5rem;
+  }
+
+  .score-container {
+    gap: 0.3rem;
+  }
+
+  .user-score,
+  .computer-score {
+    width: 8rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.2rem;
+  }
+
+  #user-score,
+  #computer-score {
+    font-size: 2rem;
+    padding: 0.5rem 0.2rem;
+  }
+
+  .vs-text {
+    font-size: 2rem;
+  }
+
+  .label-container {
+    gap: 6rem;
+  }
+
+  .ingame-container {
+    gap: 6rem;
+  }
+}
+
+/***********************/
+/* BELOW 425px (Landscape Tablets) */
+/* CALCULATION: 425 / 16 = 41.25em*/
+/***********************/
+@media (max-width: 27em) {
+  .ingame-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.3fr 1fr;
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .btn-container {
+    align-items: center;
+  }
+
+  .user-choices,
+  .ai-choices {
+    flex-direction: row;
+  }
+
+  .label-container {
+    display: none;
+  }
+
+  .vs-text {
+    font-size: 3rem;
+  }
+
+  .choice-text {
+    margin-bottom: 1.2rem;
+  }
+
+  .secondary-header {
+    font-size: 3rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .play-again-btn {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Rock Paper Scissor is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- For WEB Icon -->
+    <link rel="icon" href="img/favicon.png" />
+    <!-- For IOS Icon -->
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <!-- For ANDROID Icon -->
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-title-container">
+        <h1 class="primary-header">ROCK</h1>
+        <h1 class="primary-header">PAPER</h1>
+        <h1 class="primary-header">SCISSSOR</h1>
+      </div>
+
+      <div class="score-container">
+        <p class="user-score">player<span id="user-score">0</span></p>
+        <p class="computer-score">computer<span id="computer-score">0</span></p>
+      </div>
+    </header>
+
+    <main>
+      <section class="label-container">
+        <h3 class="tertiary-header">player</h3>
+        <h3 class="tertiary-header">computer</h3>
+      </section>
+      <section class="ingame-container">
+        <div class="user-choices">
+          <img
+            class="user-choose choices"
+            id="rock"
+            src="img/choices/rock.png"
+            draggable="false"
+          />
+          <img
+            class="user-choose choices"
+            id="paper"
+            src="img/choices/paper.png"
+            draggable="false"
+          />
+          <img
+            class="user-choose choices"
+            id="scissor"
+            src="img/choices/scissor.png"
+            draggable="false"
+          />
+        </div>
+        <div class="btn-container">
+          <h2 class="secondary-header hide">PLAYER WINS</h2>
+          <p class="vs-text">vs</p>
+          <p class="choice-text"></p>
+          <button class="play-again-btn btn-toggle">Play Again</button>
+        </div>
+        <div class="ai-choices">
+          <img
+            class="ai-choose choices"
+            id="ai-rock"
+            src="img/choices/rock.png"
+            draggable="false"
+          />
+          <img
+            class="ai-choose choices"
+            id="ai-paper"
+            src="img/choices/paper.png"
+            draggable="false"
+          />
+          <img
+            class="ai-choose choices"
+            id="ai-scissor"
+            src="img/choices/scissor.png"
+            draggable="false"
+          />
+        </div>
+      </section>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
